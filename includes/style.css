@@ -1,0 +1,1156 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+*{ 
+  margin:0px;
+  padding:0px;
+}
+body{ 
+  font-family: "Alef Hebrew",
+  Helvetica,
+  Arial,
+  sans-serif;
+  direction: rtl;
+}
+
+
+header, nav, main, section, footer, div {
+  display: block;
+}
+ul{
+  list-style-type: none;
+}
+
+header nav ul li{
+  padding-right:40px; 
+  display: inline-block;
+  list-style-type: none; 
+}
+header nav ul{
+margin-bottom: 0px; 
+}
+header nav ul li a,
+header nav ul li a:after,
+header nav ul li a:before {
+ transition: all .1s;
+}
+header nav ul li a:hover {
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+header nav ul li a:hover:after {
+  width: 100%;
+}
+header nav ul li a:after {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '';
+  background: white;
+  height: 6px;
+}
+header nav ul li a{
+  display: inline-block;
+  font-size: 18px;
+  margin-left:70px;
+  padding-top:20px;
+  color:white;
+  position: relative;
+  margin: 0 10px;
+  padding: 15px;
+  text-decoration: none;
+}
+header{
+  width:100%;
+  background-color:black;
+  text-align: center;
+}
+
+#logo
+{
+  width: 30%;
+  display: inline-block;
+  height: 85px;
+  margin-top: 30px;
+  margin-left: 5p;
+  margin-left: 135px;
+}
+
+h2
+{
+  color:white;
+}
+h1{
+  color:white;
+  padding-top: 50px;
+  font-size: 48px;
+}
+header nav{
+  display: inline-block;
+  text-align: center;
+  padding-top: 30px;
+}
+
+p
+{
+  color: white;
+}
+ #SliderTitle
+{
+  position: relative;
+  font-weight:bold;
+  top:-200px; 
+  right:30px; 
+}
+
+
+ #GrayRectangle
+{
+  width:462px;
+  background-color: #606060;
+  color: #f2bd20;
+  font-weight: bold; 
+  font-size:48px;
+
+
+
+}
+
+#YellowRectangle
+{
+  width:360px; 
+  padding-top:10px;
+  padding-bottom: 10px; 
+  background-color: #f2bd20;
+  text-align: center; 
+  color:#606060; 
+  font-size:24px; 
+  border-radius: 25px;
+
+}
+
+
+
+
+#logo
+{
+   width:30%; 
+   display: inline-block;
+   width:257px;
+   height:85px; 
+   margin-top:30px; 
+}
+
+
+
+
+.arrowGame{
+font-size: 15px;
+position: relative;
+top: -5px;
+}
+
+.countdown {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.countdown .timeel {
+  display: inline-block;
+  margin: 0;
+  color: #606060;
+  font-size:60px;
+  font-weight: bold; 
+}
+.countdown span[class*="timeRef"] {
+  font-size:20px; 
+  font-weight:bold;
+  padding-left:15px; 
+  padding-right:20px; 
+}
+
+.countdown span[class*="final"] {
+  font-size:50px; 
+  font-weight: bold; 
+  padding-top:10px; 
+  color: #606060;
+}
+
+.AllGames
+{
+  color:white;
+  display: flex;
+  background-color:#606060;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+
+.arrow
+{
+  font-size:15px; 
+}
+
+
+.Bottom
+{
+
+      font-size: 30px;
+      font-weight: bold;
+
+
+}
+
+
+.Top {
+ 
+    text-align: center;
+    margin: 70px;
+}
+
+.BottomVS
+{
+  color: #f2bd20;
+  text-align:center;
+  font-weight: bold;
+  font-size: 36px;
+  margin:15px;
+}
+
+.BottomRight
+{padding-left: 80px;}
+
+
+.top_line {
+  border-bottom: 1.75px solid #EBEBE8;
+  width: 87vw;
+  /* margin-right: 40px; */
+  position: relative;
+  /* top: -5px; */
+  right: 10px;
+  display: inline-block;
+}
+
+  .turnament {
+    padding-right: 55px;
+    color: #aaaaaa;
+    margin-top: -1px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.GamesAndPractice
+{
+    display: flex;
+    flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.Game,.Practice
+{
+  text-align: center;
+  margin-top:50px;
+  border:  1px solid #f2bd20;
+  font-size:48px;
+  font-weight:bold;
+  color:#606060;
+  padding-right:50px;
+  padding-left:50px;
+  margin-bottom: 120px;
+  min-width: 30vw;
+  min-height: 20vw;
+
+}
+.head
+{
+  position: relative;
+  top: -59px;
+  background-color: white;
+  padding: 60px;
+  padding-top: 25px;
+  background-color: white;
+  padding: 20px;
+}
+
+.circleCalender
+{
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  padding: -10px;
+  border-radius: 50%;
+  border: 3px solid #f2bd20;
+  margin-top: 100px;
+  background-color: white;
+  right: 721px;
+  top: 1290px;
+  right: 595px;
+  top: 1720px;
+}
+
+.cale
+{
+  padding-top: 6px;
+  color: #f2bd20;
+  font-size: 50px;
+  text-align: center;
+  
+
+}
+
+.myteam
+{
+  color: #c7c7cc;
+  display: flex;
+  background-color: #606060;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.Bold
+{
+  font-size:24px;
+  font-weight:bold;
+  padding-bottom: 5px;
+  text-align: center; 
+}
+
+.Reg
+{
+  font-size:20px; 
+  padding-bottom: 5px;
+
+}
+
+.RegDark 
+{
+  font-size:20px; 
+  padding-bottom: 5px;
+  color: #7a7a7a; 
+  padding-left: 30px;
+
+
+}
+
+.Technical
+{
+  padding: 50px;
+  border-bottom:1px solid white;
+}
+
+.YellowBig
+{
+  color:  #f2bd20;
+  font-weight: bolder;
+  font-size: 50px;
+  margin:0;
+  text-align: center;
+}
+
+.Yellowsmall
+{
+  color:  #f2bd20;
+  font-weight: bolder; 
+  font-size: 30px;
+  margin:0;  
+  text-align: center; 
+  background-color: #606060;
+  width:100%; 
+
+
+}
+
+.Games
+{
+  padding:50px; 
+  border-bottom:1px solid white;
+  text-align: center; 
+}
+
+.MyteamHeadLine>#GrayRectangle
+{
+  height: 100%;
+  background-color: transparent;
+  color: #f2bd20;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+
+}
+.MyteamHeadLine>#YellowRectangle
+{
+    font-weight: bold;
+    border-radius: initial;
+    width: 300px;
+    font-size: 42px;
+}
+
+.MyteamHeadLine
+{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center; 
+}
+
+.pictures
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: flex;
+  padding:25px;
+
+}
+
+.photoPlayer
+{
+  display: block;
+  margin:35px; 
+}
+
+.picture
+{
+  height:133px;
+  width:123px; 
+}
+
+.playerData
+{
+  background-color: white;
+  font-size:18px;
+  font-weight: bold; 
+  color: #000000;
+  text-align:center;
+
+
+}
+
+.role
+{
+  font-size:14px;
+  font-weight: initial;
+  color:  606060;
+}
+
+
+
+.PersonalDataItems
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.PersonalData
+{
+  display: inline-block;
+  align-items: center;
+  padding: 50px;
+
+}
+
+.PersonalData>img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:59px;
+  height:59px; 
+}
+
+.GrayHead
+{
+  font-size:40px;
+  font-weight: bolder;
+  display: inline-block;
+  padding: 15px;
+  
+}
+
+.inline
+{
+  display: inline-flex;
+
+}
+
+
+
+.inline>.YellowBig
+{
+    padding: 10px;
+}
+
+.b{padding: 15px 20px 15px 25px;border-radius: 25px;background-color: #606060;color: #f2bd20;font-size: 14px;text-align: center;margin-bottom: 15px;
+  font-family: "Alef Hebrew",
+  Helvetica,
+  Arial,
+  sans-serif;}
+
+.PersonalInfo
+{
+    text-align: center;
+
+}
+
+.topinfo
+{
+  position: relative;
+  top: -90px;
+  margin: 25px;
+}
+
+.Practice>.RegDark
+{
+  position: relative;
+  top: -100px;
+}
+
+
+.sadSmile
+{
+  font-size:100px ; 
+  color: #c7c7cc;
+}
+.leftb
+{
+  position: relative;
+  top: -42px;  
+}
+
+#userLogged
+{
+  font-size: 16px;
+  color: #606060;
+  float: right;
+  margin: 30px;
+}
+
+a
+{
+  color:inherit; 
+}
+
+.headNav
+{
+display: block;
+
+}
+
+
+h2
+{
+   color:white;
+}
+h1{
+   color:white;
+   padding-top: 50px;
+   font-size: 48px;
+}
+header nav{
+   display: inline-block;
+   text-align: center;
+   padding-top: 30px;
+   
+}
+.top_line{
+   border-bottom: 1.75px solid #EBEBE8;
+   width: 87vw;
+   margin-left: 40px; 
+}
+main{
+   position: relative;
+}
+h4{
+   color: #aaaaaa;
+}
+.turnament{
+   color: #aaaaaa;
+   margin-left: 89vw;
+   margin-top: -15px;
+   font-size: 18px;
+}
+h3{
+   color: #aaaaaa;
+}
+.ellipse{
+   width: 100%;
+   height: 400px;
+}
+.ellipse{
+   background: #f7f6f6;
+   border-radius: 40px;
+   height: 40px;
+   width: 49px;
+}
+.game .flex-container > div{
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 32px;
+}
+.eli{
+   padding-right: 107px;
+   padding-left: 107px;
+   padding-bottom: 51px;
+}
+.first1{
+   margin-top: -135px;
+   margin-left: 8px;
+}
+.ellipse1 {
+   margin-left: 81px;
+   margin-top: 82px;
+}
+.ellipse2{
+   margin-left: 0px;
+   margin-top: 69px;
+}
+.orang_line{
+   border-right: 2px solid orange;
+   height: 304px;
+}
+.ellipse3{
+   margin-left: 81px;
+   margin-top: 24px;
+} 
+.ellipse4{
+   margin-left: 0px;
+   margin-top: -37px;
+} 
+.ellipse5{
+   margin-left: 81px;
+   margin-top: 24px;
+} 
+.ellipse6{
+   margin-left: 0px;
+   margin-top: -40px;
+} 
+.ellipse7{
+   margin-left: 81px;
+   margin-top: 24px;
+}
+.ellipse8{
+   margin-left: 0px;
+   margin-top: -37px;
+}
+.sec_line{
+   border-right: 2px solid #EBEBE8;
+   height: 304px;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+.elli{
+   padding-right: 82px;
+   padding-left: 82px;
+}
+.three{
+   margin-left: 0px;
+   margin-top: 0px;
+}
+.ellipse9{
+   margin-left: 154px;
+   margin-top: 24px;
+}
+.ellipse10{
+   margin-left: 75px;
+   margin-top: -37px;
+}
+.ellipse11{
+   margin-top: -40px;
+   margin-left: 0px;
+}
+.ellipse12{
+   margin-top: 24px;
+   margin-left: 154px;
+}
+.ellipse13{
+   margin-top: 27px;
+   margin-left: 154px;
+}
+.ellipse14{
+   margin-top: -104px;
+   margin-left: 75px;
+}
+.ellipse15{
+   margin-top: -41px;
+   margin-left: 5px;
+}
+.ellipse16{
+   margin-top: 25px;
+   margin-left: 79px;
+}
+.ellipse17{
+   margin-top: -41px;
+   margin-left: 5px;
+}
+.three_line{
+   border-right: 2px solid #EBEBE8;
+   height: 304px;
+
+}
+.ellipse18{
+   margin-left: 154px;
+   margin-top: 24px;
+}
+.ellipse19{
+   margin-left: 75px;
+   margin-top: -37px;
+}
+.ellipse20{
+   margin-top: -40px;
+   margin-left: 0px;
+}
+.ellipse21{
+   margin-top: 24px;
+   margin-left: 154px;
+}
+.ellipse22{
+   margin-top: 27px;
+   margin-left: 154px;
+}
+.ellipse23{
+   margin-top: -104px;
+   margin-left: 75px;
+}
+.ellipse24{
+   margin-top: -41px;
+   margin-left: 5px;
+}
+.ellipse25{
+   margin-top: 25px;
+   margin-left: 79px;
+}
+.ellipse26{
+   margin-top: -40px;
+   margin-left: 5px;
+}
+.ellipse27{
+   margin-top: 27px;
+   margin-left: 154px;
+}
+.ellipse28{
+   margin-top: -40px;
+   margin-left: 79px;
+}
+.ellipse29{
+   margin-top: -40px;
+   margin-left: 8px;
+}
+.orange{
+   background: orange;
+}
+.flex-container .color{
+   background: #d6d6d6;
+}
+.five_line {
+   border-top: 1.75px solid #EBEBE8;
+   width: 76vw;
+   margin-left: 40px;
+}
+.clear{
+   clear: both;
+}
+.next_games{
+   color: #aaaaaa;
+   width: auto;
+   position: absolute;
+   font-size: 18px;
+   right: 6%;
+   top: -41px;
+}
+
+.icon1{
+  font-size: 20px;
+  float: left;
+  margin: 15px;
+}
+footer{
+   position: relative;
+   margin-top: 0px;
+   width: 100%;
+   height: 274px;
+}
+.footer_nav{
+   position: absolute;
+}
+.image{
+   display: block;
+   position: absolute;
+   left: 25vw;
+   width: 51vw;
+   bottom: 0px;
+}
+.rights{
+   position: absolute;
+   left: 44vw;
+   top: 14vw;
+}
+.footer_nav nav{
+   position: absolute;
+   width: 55vw;
+   left: 36vw;
+   top: 10vw;
+}
+.footer_nav a{
+   color: #c0c0c0;
+   font-size: 18px;
+   padding-right: 20px;
+   padding-left: 20px;
+   font-weight: 550;
+   float: left;
+}
+.rights a{
+   color: #c0c0c0;
+   font-size: 12px;
+   font-weight: 600;
+}
+.wrapper{
+   width: 100%;
+   min-height: 62vw;
+   margin: 0px auto;
+   margin-top: 106px;
+   margin-bottom: 2px;
+   text-align: center;
+}
+.game .flex-container > .my_next_games{
+   padding: 24px 62px 2px;
+   position: relative;      }
+.deta{
+   margin-left: 103px;
+   margin-right: 103px;
+   width: 16vw;
+   position: relative;
+}
+.ciro{
+   position: relative;
+   margin-top: 28px;
+}
+.option1 a{
+   color: #aaaaaa;
+   font-size: 18px;
+   margin-top: -18px;
+}
+.option2 a{
+   color: #aaaaaa;
+   font-size: 18px;
+   left: -9px;
+   position: absolute;
+   top: 37px;
+}
+.circle{
+   width: 16px;
+   position: absolute;
+   height: 16px;
+   border-radius: 40px;
+   background: #ebebeb;
+}
+.circle1{
+   top: 10px;
+   right: 0px;
+   }
+.circle2{
+   right: 0px;
+   top: 44px;
+}
+.six_line{
+   border-right: 2.5px solid #EBEBE8;
+   height: 186px;
+   margin-top: -25px;
+}
+.seven_line{
+   border-right: 2px solid #EBEBE8;
+   height: 186px;
+   margin-top: -25px;
+}
+.eight_line{
+   /* position: absolute; */
+   border-top: 1.75px solid #EBEBE8;
+   width: 90vw;
+   left: 3vw;
+   top: 13vw;
+}
+.date{
+color: #7a7a7a;
+font-size: 24px;
+position: absolute;
+margin-left: 35px;
+} 
+.time{
+color: #7a7a7a;
+font-size: 24px;
+position: absolute;
+margin-left: 47px;
+}
+.place{
+color: #7a7a7a;
+font-size: 24px;
+position: absolute;
+margin-left: 18px;
+margin-top: 40px;
+}
+.name{
+color: #444444;
+font-size: 40px;
+}
+.my_next_games .name{
+position: absolute;
+}
+.team_compon{
+padding-top: 41px;
+display: inline-flex;
+}
+.vs{
+   color: #f2bd20;
+   font-size: 36px;
+   float: right;
+   padding-left:20px; 
+}
+.game .vs{
+   margin-top: 53px;
+   font-size: 40px;
+}
+.my_next_games{
+   width: auto;
+   height: 13vw;
+}
+.shirt{
+   margin-left: 86px;
+}
+.icon2{
+   margin-left: 106px;
+}
+.icon3{
+   margin-top: 40px;
+   position: absolute;
+   margin-left: -35px;
+}
+.icon4{
+   position: absolute;
+   margin-top: 77px;
+   margin-left: -21px;
+}
+.arrow{
+   float: left;
+   margin-top: 81px;
+   margin-left: -34px;
+}
+.curr a{
+   color: orange;
+}
+.next_page a{
+   color: #d6d6d6;
+}
+.tittle_arrow{
+   left: 44vw;
+   top: 0.5vw;
+   position: absolute;
+}
+.next_page{
+   text-align: center;
+   display: flex;
+   margin-left: 47vw;
+   margin-top: -21px;
+}
+.pages{
+   position: relative;
+   width: auto;
+   height: 22px;
+   margin-top: 325px;   
+}
+.nin_line{
+   position: absolute;
+   border-right: 2px solid #EBEBE8;
+   height: 31px;
+   left: 43vw;
+   top: 10vw;
+}
+.ten_line{
+   position: absolute;
+   border-right: 2px solid #EBEBE8;
+   height: 31px;
+   left: 53.5vw;
+   top: 10vw;
+}
+
+/* -----------second page----------------------------- */
+
+.set_game,  .game
+{
+  direction: ltr;
+}
+.set_game header{
+height: 238.2px;
+}
+.flex-container{
+   display: flex;
+   flex-wrap: wrap;
+}
+.set_game .under_line a{
+  color: #929292;
+  text-decoration-line: underline;
+}
+.set_game h3{
+position: static;
+color: #c0c0c0;
+}
+.set_game .vs{
+font-weight: 600;
+margin-right: 40px;
+}
+.set_game .name{
+color: white;
+font-size: 36px;
+}
+.close{
+position: absolute;
+ right: 30px;
+ top: 28px;
+}
+.players{
+padding-top: 57px;
+width: auto;
+height: 48px;
+padding-left: 31vw; 
+padding-bottom: 45px; 
+}
+.cir{
+width: 23px;
+height: 23px;
+margin-bottom: 8px;
+border-radius: 40px;
+background: #f7f6f6;
+float: left;
+margin-right: 35px;
+text-align: center;
+}
+.set_game .icon1{
+  position: relative;
+  left: -60vw;
+  top: 15vh;
+  margin-top: 10px;
+}
+.pos{
+width: 51px;
+height: 51px;
+border-radius: 40px;
+background: orange;
+text-align: center;
+vertical-align: middle;
+color: white;
+font-size: 36px;
+}
+.positions{
+text-align: center;
+flex-direction: column;
+display: flex;
+}
+.cir1{
+margin-left: 222px;
+margin-top: -627px;
+}
+.cir2{
+margin-left: 382px;
+}
+.cir3{
+margin-top: -41px;
+margin-left: 79px;
+}
+.cir4{
+margin-left: 397px;
+margin-top: 124px;
+}
+.cir5{
+margin-top: -52px;
+margin-left: 224px;
+}
+.cir6{
+margin-top: -49px;
+margin-left: 42px;
+}
+.cir7{
+margin-top: 55px;
+margin-left: 383px;
+}
+.cir8{
+margin-top: -42px;
+margin-left: 67px;
+}
+.cir9{
+margin-top: 22px;
+margin-left: 345px;
+}
+.cir10{
+margin-top: -47px;
+margin-left: 107px;
+}
+.cir11{
+margin-top: 11px;
+margin-left: 225px;
+}
+.fild{
+padding-top: 30px;
+}
+.players_list{
+color: #929292;
+font-size: 24px;
+text-align: -webkit-right;
+padding-left: 9vw;
+padding-top: 27vh;
+padding-right: 16%;
+}
+.colored{
+float: right;
+color: orange;
+}
+.fild1{
+text-align: center;
+}
+
+.iconList
+{
+  font-size: 20px;
+  color: #aaaaaa;
+  float: left;
+  margin: 15px;
+}
+@media (max-width: 851px){
+.players_list{
+   color: #929292;
+   font-size: 24px;
+   text-align: -webkit-right;
+   padding-left: 9px;
+   padding-top: 2px;
+   padding-right: 0px;
+   width: auto;
+   margin: 50px auto;
+}
+.fild1{
+   margin: 50px auto;
+}
+.top_line {
+   width: 75vw;
+   margin-left: 40px;
+}
+.turnament {
+color: #aaaaaa;
+margin-left: 84vw;
+margin-top: -15px;
+font-size: 18px;
+}
+
+.iconList
+{
+  font-size: 20px;
+  color: #aaaaaa;
+  float: left;
+  margin: 15px;
+}
+}
+
